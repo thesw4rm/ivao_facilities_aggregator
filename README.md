@@ -9,7 +9,7 @@
 2. Edit the fields with relevent info (change region to two letter code, ex. `"region": "xa"`). For now please make sure it is lowercase
 3. Edit `webdriver.Firefox(firefox_binary=...)` to use Chrome/Firefox, whichever browser you have, and change the `firefox_binary` to the path to your browser executable. 
     - If you don't know that path, replace that line with `webdriver.Firefox()` or `webdriver.Chrome()` and pray it works. 
-    - Note, you will need geckodriver/chromedriver in your PATH. This will require some googling if you are not familiar with the process. 
+    - Note, you may need geckodriver/chromedriver in your PATH. This will require some googling if you are not familiar with the process. 
 4. Run `python3 main.py` and let it finish
 5. Run `python3 clean.py` to format the data. Change up that file if you know Python and want to format differently
 6. Run `python3 search.py` to perform the example search. Change it up to search for different stuff
