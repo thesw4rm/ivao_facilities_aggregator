@@ -6,7 +6,7 @@
 
 # How to use
 1. Copy the `config.example.json` file to a file named `config.json`
-2. Edit the fields with relevent info (change region to two letter code, ex. `"region": "XA"`)
+2. Edit the fields with relevent info (change region to two letter code, ex. `"region": "xa"`). For now please make sure it is lowercase :)
 3. Edit `webdriver.Firefox(firefox_binary=...)` to use Chrome/Firefox, whichever browser you have, and change the `firefox_binary` to the path to your browser executable. If you don't know that path, replace that line with `webdriver.Firefox()` or `webdriver.Chrome()` and pray it works.
 4. Run `python3 main.py` and let it finish
 5. Run `python3 clean.py` to format the data. Change up that file if you know Python and want to format differently
